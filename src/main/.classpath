@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="build-eclipse/1" path="java"/>
+	<classpathentry kind="src" output="build-eclipse/2" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="lib" path="E:/transport-5.4.1.jar/transport-5.4.1.jar"/>
+	<classpathentry kind="output" path="build-eclipse"/>
+</classpath>

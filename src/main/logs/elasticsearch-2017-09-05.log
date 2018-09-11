@@ -1,0 +1,128 @@
+[2017-09-05T18:28:27,956][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-05T18:28:28,126][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-05T18:28:28,127][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-05T18:28:28,543][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-05T18:28:28,544][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[14112], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-05T18:28:28,544][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-05T18:28:28,544][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-05T18:28:44,565][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-05T18:28:44,565][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-05T18:28:44,565][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-05T18:28:44,565][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-05T18:28:44,565][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-05T18:28:44,565][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-05T18:28:44,566][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-05T18:28:44,566][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-05T18:28:44,566][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-05T18:28:44,566][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-05T18:28:44,566][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-05T18:28:55,434][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-05T18:28:57,992][INFO ][o.e.n.Node               ] initialized
+[2017-09-05T18:28:57,993][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-05T18:28:58,356][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-05T18:28:58,865][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-05T18:28:58,905][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-05T18:29:02,187][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{TNkZRf6WSU61-qjnO4TIlA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-05T18:29:02,527][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-05T18:29:02,618][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-05T18:29:02,878][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-05T18:29:02,880][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-05T18:29:03,233][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-05T18:29:03,235][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-05T18:29:03,247][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-05T18:29:03,249][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-05T18:29:03,250][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-05T18:29:05,050][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-05T18:29:05,200][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][7] overhead, spent [307ms] collecting in the last [1s]
+[2017-09-05T18:29:14,140][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][3], [logstash-2017.06.06][1]] ...]).
+[2017-09-05T18:43:42,271][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-05T18:43:42,432][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-05T18:43:42,432][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-05T18:43:42,635][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-05T18:43:42,635][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[16684], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-05T18:43:42,635][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-05T18:43:42,636][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-05T18:43:57,682][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-05T18:43:57,683][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-05T18:44:05,037][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-05T18:44:07,270][INFO ][o.e.n.Node               ] initialized
+[2017-09-05T18:44:07,270][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-05T18:44:07,366][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-05T18:44:07,761][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-05T18:44:07,791][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-05T18:44:11,041][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{0fETXS38S6udU-T-RnS28g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-05T18:44:11,198][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-05T18:44:11,200][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-05T18:44:11,381][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-05T18:44:11,382][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-05T18:44:11,595][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-05T18:44:11,596][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-05T18:44:11,608][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-05T18:44:11,610][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-05T18:44:11,610][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-05T18:44:12,539][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-05T18:44:20,113][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][3]] ...]).
+[2017-09-05T19:02:31,420][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-05T19:02:31,559][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-05T19:02:31,559][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-05T19:02:31,764][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-05T19:02:31,764][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[11996], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-05T19:02:31,765][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-05T19:02:31,765][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-05T19:02:46,062][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-05T19:02:46,062][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-05T19:02:46,062][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-05T19:02:46,062][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-05T19:02:46,062][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-05T19:02:46,062][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-05T19:02:46,063][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-05T19:02:46,063][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-05T19:02:46,063][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-05T19:02:46,063][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-05T19:02:46,063][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-05T19:10:19,441][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-05T19:10:19,603][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-05T19:10:19,604][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-05T19:10:19,816][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-05T19:10:19,816][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[18044], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-05T19:10:19,816][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-05T19:10:19,816][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-05T19:10:34,261][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-05T19:10:34,261][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-05T19:10:34,261][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-05T19:10:34,261][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-05T19:10:34,261][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-05T19:10:34,262][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-05T19:10:34,262][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-05T19:10:34,262][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-05T19:10:34,262][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-05T19:10:34,262][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-05T19:10:34,262][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-05T19:10:37,026][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-05T19:10:37,766][INFO ][o.e.n.Node               ] initialized
+[2017-09-05T19:10:37,766][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-05T19:10:37,847][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-05T19:10:38,225][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-05T19:10:38,233][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-05T19:10:41,288][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{6GNeM80FRZuNqoFHffrvxw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-05T19:10:41,429][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-05T19:10:41,432][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-05T19:10:41,473][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-05T19:10:41,475][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-05T19:10:41,698][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-05T19:10:41,699][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-05T19:10:41,700][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-05T19:10:41,701][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-05T19:10:41,702][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-05T19:10:42,352][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-05T19:10:50,817][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][13] overhead, spent [289ms] collecting in the last [1s]
+[2017-09-05T19:10:52,350][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][4], [logstash-2017.06.06][0]] ...]).

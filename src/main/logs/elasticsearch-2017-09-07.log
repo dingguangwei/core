@@ -1,0 +1,1042 @@
+[2017-09-07T09:00:01,584][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T09:00:01,894][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T09:00:01,894][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T09:00:02,309][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T09:00:02,309][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[1852], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T09:00:02,310][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T09:00:02,310][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T09:00:16,391][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T09:00:16,392][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T09:00:16,392][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T09:00:16,392][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T09:00:16,392][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T09:00:16,392][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T09:00:16,392][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T09:00:16,392][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T09:00:16,392][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T09:00:16,392][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T09:00:16,393][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T09:00:30,328][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T09:00:32,244][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T09:00:32,244][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T09:00:32,396][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T09:00:33,497][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T09:00:33,609][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T09:00:37,342][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{nN2gpABjStajUZrbeo2MUw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T09:00:37,526][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T09:00:37,528][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T09:00:37,704][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T09:00:37,705][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T09:00:39,911][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T09:00:39,930][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T09:00:39,940][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T09:00:39,942][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T09:00:39,942][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T09:00:40,730][WARN ][o.e.g.GatewayAllocator$InternalPrimaryShardAllocator] [0kHAj67] [logstash-2017.06.07][1]: failed to list shard for shard_started on node [0kHAj67FRs6m_ktiMYc0zg]
+org.elasticsearch.action.FailedNodeException: Failed node [0kHAj67FRs6m_ktiMYc0zg]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:246) [1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$1(TransportNodesAction.java:240) [1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$1.handleException(TransportNodesAction.java:218) [1/:?]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1050) [1/:?]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1154) [1/:?]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1132) [1/:?]
+	at org.elasticsearch.transport.TransportService$7.onFailure(TransportService.java:638) [1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:623) [1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39) [1/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: org.elasticsearch.transport.RemoteTransportException: [0kHAj67][127.0.0.1:9300][internal:gateway/local/started_shards[n]]
+Caused by: org.elasticsearch.ElasticsearchException: failed to load started shards
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:171) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:1) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:269) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:1) ~[1/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[1/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[1/:?]
+	... 3 more
+Caused by: org.elasticsearch.ElasticsearchException: java.io.IOException: failed to read [id:157, legacy:false, file:E:\elasticsearch-5.4.1\core\src\main\data\nodes\0\indices\Dh0dDoPLTcynKk1rVSPOhQ\_state\state-157.st]
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:150) ~[1/:?]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:334) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:1) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:269) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:1) ~[1/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[1/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[1/:?]
+	... 3 more
+Caused by: java.io.IOException: failed to read [id:157, legacy:false, file:E:\elasticsearch-5.4.1\core\src\main\data\nodes\0\indices\Dh0dDoPLTcynKk1rVSPOhQ\_state\state-157.st]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:327) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:1) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:269) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:1) ~[1/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[1/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[1/:?]
+	... 3 more
+Caused by: java.nio.file.NoSuchFileException: E:\elasticsearch-5.4.1\core\src\main\data\nodes\0\indices\Dh0dDoPLTcynKk1rVSPOhQ\_state\state-157.st
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_121]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_121]
+	at org.apache.lucene.store.SimpleFSDirectory.openInput(SimpleFSDirectory.java:77) ~[lucene-core-6.5.1.jar:6.5.1 cd1f23c63abe03ae650c75ec8ccb37762806cc75 - jimczi - 2017-04-21 12:17:15]
+	at org.elasticsearch.gateway.MetaDataStateFormat.read(MetaDataStateFormat.java:187) ~[1/:?]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:322) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:1) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:269) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:1) ~[1/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[1/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[1/:?]
+	... 3 more
+[2017-09-07T09:00:40,951][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T09:00:49,642][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][1]] ...]).
+[2017-09-07T09:07:37,632][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][425] overhead, spent [299ms] collecting in the last [1s]
+[2017-09-07T09:37:54,004][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T09:37:54,172][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T09:37:54,173][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T09:37:54,397][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T09:37:54,397][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[1164], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T09:37:54,398][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T09:37:54,398][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T09:38:08,568][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T09:38:08,568][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T09:38:08,568][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T09:38:08,568][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T09:38:08,568][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T09:38:08,568][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T09:38:08,569][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T09:38:08,569][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T09:38:08,569][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T09:38:08,569][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T09:38:08,569][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T09:38:10,833][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T09:38:11,426][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T09:38:11,426][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T09:38:11,502][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T09:38:11,870][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T09:38:11,877][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T09:38:14,930][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{FSWAH5TyQnajKvfgUkEsHA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T09:38:15,047][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T09:38:15,048][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T09:38:15,076][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T09:38:15,079][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T09:38:15,221][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T09:38:15,222][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T09:38:15,223][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T09:38:15,224][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T09:38:15,224][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T09:38:15,795][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T09:38:22,699][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][1], [logstash-2017.06.06][3]] ...]).
+[2017-09-07T09:38:53,661][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][42] overhead, spent [282ms] collecting in the last [1s]
+[2017-09-07T09:44:01,386][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T09:44:01,533][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T09:44:01,534][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T09:44:01,783][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T09:44:01,784][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[6416], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T09:44:01,784][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T09:44:01,784][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T09:44:15,765][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T09:44:15,765][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T09:44:15,765][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T09:44:15,765][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T09:44:15,765][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T09:44:15,765][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T09:44:15,765][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T09:44:15,765][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T09:44:15,765][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T09:44:15,766][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T09:44:15,766][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T09:44:17,993][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T09:44:18,531][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T09:44:18,532][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T09:44:18,630][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T09:44:19,010][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T09:44:19,022][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T09:44:22,076][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{2jAd1D_HTD2Db0aNlYBQiQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T09:44:22,190][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T09:44:22,192][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T09:44:22,218][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T09:44:22,220][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T09:44:22,366][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T09:44:22,367][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T09:44:22,368][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T09:44:22,369][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T09:44:22,369][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T09:44:22,838][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T09:44:23,539][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][5] overhead, spent [293ms] collecting in the last [1s]
+[2017-09-07T09:44:29,736][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][3], [logstash-2017.06.06][0]] ...]).
+[2017-09-07T10:10:34,965][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T10:10:35,124][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T10:10:35,125][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T10:10:35,344][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T10:10:35,344][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[13348], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T10:10:35,345][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T10:10:35,345][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T10:10:49,732][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T10:10:49,733][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T10:10:49,733][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T10:10:49,733][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T10:10:49,733][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T10:10:49,733][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T10:10:49,733][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T10:10:49,733][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T10:10:49,734][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T10:10:49,734][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T10:10:49,734][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T10:10:51,944][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T10:10:52,516][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T10:10:52,516][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T10:10:52,593][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T10:10:52,993][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T10:10:53,000][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T10:10:56,054][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{gbTqPRCXSi-uzqs-oZSUGA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T10:10:56,197][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T10:10:56,198][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T10:10:56,230][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T10:10:56,232][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T10:10:56,379][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T10:10:56,379][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T10:10:56,380][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T10:10:56,382][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T10:10:56,382][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T10:10:56,897][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T10:11:03,945][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][1]] ...]).
+[2017-09-07T10:15:23,742][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][271] overhead, spent [359ms] collecting in the last [1s]
+[2017-09-07T10:38:13,961][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T10:38:14,142][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T10:38:14,143][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T10:38:14,370][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T10:38:14,370][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[5392], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T10:38:14,370][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T10:38:14,370][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T10:38:28,928][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T10:38:28,928][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T10:38:28,928][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T10:38:28,928][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T10:38:28,928][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T10:38:28,929][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T10:38:28,929][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T10:38:28,929][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T10:38:28,929][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T10:38:28,929][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T10:38:28,929][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T10:38:31,138][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T10:38:31,676][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T10:38:31,676][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T10:38:31,753][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T10:38:32,165][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T10:38:32,179][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T10:38:35,243][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{NxvOaopzQrO1CW3GDdBVFA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T10:38:35,353][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T10:38:35,354][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T10:38:35,391][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T10:38:35,394][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T10:38:35,536][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T10:38:35,536][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T10:38:35,538][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T10:38:35,539][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T10:38:35,539][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T10:38:36,058][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T10:38:38,683][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][7] overhead, spent [284ms] collecting in the last [1s]
+[2017-09-07T10:38:43,169][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][1], [logstash-2017.06.06][0]] ...]).
+[2017-09-07T10:39:05,709][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][34] overhead, spent [281ms] collecting in the last [1s]
+[2017-09-07T10:39:47,745][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][76] overhead, spent [338ms] collecting in the last [1s]
+[2017-09-07T11:03:47,099][WARN ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] caught exception while handling client http traffic, closing connection [id: 0x5cf759f7, L:/127.0.0.1:9200 - R:/127.0.0.1:54093]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-09-07T11:03:47,099][WARN ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] caught exception while handling client http traffic, closing connection [id: 0xcb4df788, L:/127.0.0.1:9200 - R:/127.0.0.1:54092]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-09-07T14:41:58,324][WARN ][r.suppressed             ] path: /logstash-2017.06.07/_search, params: {index=logstash-2017.06.07, search_type=count}
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: org.elasticsearch.transport.netty4.ByteBufStreamInput@6b300a95; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:456) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2054) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1701) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:776) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:55) ~[1/:?]
+	at org.elasticsearch.search.builder.SearchSourceBuilder.parseXContent(SearchSourceBuilder.java:946) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.parseSearchRequest(RestSearchAction.java:98) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.lambda$0(RestSearchAction.java:78) ~[1/:?]
+	at org.elasticsearch.rest.RestRequest.withContentOrSourceParamParserOrNull(RestRequest.java:403) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.prepareRequest(RestSearchAction.java:77) ~[1/:?]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:66) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:273) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:211) [1/:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:505) [transport-netty4-5.4.1.jar:5.4.1]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:72) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:63) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.cors.Netty4CorsHandler.channelRead(Netty4CorsHandler.java:76) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-09-07T14:44:38,756][WARN ][r.suppressed             ] path: /logstash-2017.06.07/_search, params: {index=logstash-2017.06.07, search_type=count}
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: org.elasticsearch.transport.netty4.ByteBufStreamInput@3073e220; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:456) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2054) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1701) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:776) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:55) ~[1/:?]
+	at org.elasticsearch.search.builder.SearchSourceBuilder.parseXContent(SearchSourceBuilder.java:946) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.parseSearchRequest(RestSearchAction.java:98) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.lambda$0(RestSearchAction.java:78) ~[1/:?]
+	at org.elasticsearch.rest.RestRequest.withContentOrSourceParamParserOrNull(RestRequest.java:403) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.prepareRequest(RestSearchAction.java:77) ~[1/:?]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:66) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:273) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:211) [1/:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:505) [transport-netty4-5.4.1.jar:5.4.1]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:72) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:63) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.cors.Netty4CorsHandler.channelRead(Netty4CorsHandler.java:76) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-09-07T14:48:14,357][WARN ][r.suppressed             ] path: /logstash-2017.06.07/_search, params: {index=logstash-2017.06.07, search_type=count}
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: org.elasticsearch.transport.netty4.ByteBufStreamInput@587abab9; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:456) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2054) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1701) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:776) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:55) ~[1/:?]
+	at org.elasticsearch.search.builder.SearchSourceBuilder.parseXContent(SearchSourceBuilder.java:946) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.parseSearchRequest(RestSearchAction.java:98) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.lambda$0(RestSearchAction.java:78) ~[1/:?]
+	at org.elasticsearch.rest.RestRequest.withContentOrSourceParamParserOrNull(RestRequest.java:403) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.prepareRequest(RestSearchAction.java:77) ~[1/:?]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:66) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:273) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:211) [1/:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:505) [transport-netty4-5.4.1.jar:5.4.1]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:72) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:63) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.cors.Netty4CorsHandler.channelRead(Netty4CorsHandler.java:76) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-09-07T14:48:53,504][WARN ][r.suppressed             ] path: /logstash-2017.06.07/_search, params: {index=logstash-2017.06.07, search_type=count}
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: org.elasticsearch.transport.netty4.ByteBufStreamInput@546f1790; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:456) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2054) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1701) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:776) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:55) ~[1/:?]
+	at org.elasticsearch.search.builder.SearchSourceBuilder.parseXContent(SearchSourceBuilder.java:946) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.parseSearchRequest(RestSearchAction.java:98) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.lambda$0(RestSearchAction.java:78) ~[1/:?]
+	at org.elasticsearch.rest.RestRequest.withContentOrSourceParamParserOrNull(RestRequest.java:403) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.prepareRequest(RestSearchAction.java:77) ~[1/:?]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:66) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:273) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:211) [1/:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:505) [transport-netty4-5.4.1.jar:5.4.1]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:72) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:63) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.cors.Netty4CorsHandler.channelRead(Netty4CorsHandler.java:76) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-09-07T14:49:45,232][WARN ][r.suppressed             ] path: /logstash-2017.06.07/_search, params: {index=logstash-2017.06.07, search_type=count}
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: org.elasticsearch.transport.netty4.ByteBufStreamInput@7327384f; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:456) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2054) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1701) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:776) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:55) ~[1/:?]
+	at org.elasticsearch.search.builder.SearchSourceBuilder.parseXContent(SearchSourceBuilder.java:946) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.parseSearchRequest(RestSearchAction.java:98) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.lambda$0(RestSearchAction.java:78) ~[1/:?]
+	at org.elasticsearch.rest.RestRequest.withContentOrSourceParamParserOrNull(RestRequest.java:403) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.prepareRequest(RestSearchAction.java:77) ~[1/:?]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:66) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:273) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:211) [1/:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:505) [transport-netty4-5.4.1.jar:5.4.1]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:72) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:63) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.cors.Netty4CorsHandler.channelRead(Netty4CorsHandler.java:76) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-09-07T14:50:46,964][WARN ][r.suppressed             ] path: /logstash-2017.06.07/_search, params: {index=logstash-2017.06.07, search_type=count}
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: org.elasticsearch.transport.netty4.ByteBufStreamInput@4583f4a4; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:456) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2054) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1701) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:776) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:55) ~[1/:?]
+	at org.elasticsearch.search.builder.SearchSourceBuilder.parseXContent(SearchSourceBuilder.java:946) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.parseSearchRequest(RestSearchAction.java:98) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.lambda$0(RestSearchAction.java:78) ~[1/:?]
+	at org.elasticsearch.rest.RestRequest.withContentOrSourceParamParserOrNull(RestRequest.java:403) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.prepareRequest(RestSearchAction.java:77) ~[1/:?]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:66) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:273) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:211) [1/:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:505) [transport-netty4-5.4.1.jar:5.4.1]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:72) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:63) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.cors.Netty4CorsHandler.channelRead(Netty4CorsHandler.java:76) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-09-07T15:00:22,047][WARN ][r.suppressed             ] path: /logstash-2017.06.07/_search, params: {index=logstash-2017.06.07, search_type=count}
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): was expecting double-quote to start field name
+ at [Source: org.elasticsearch.transport.netty4.ByteBufStreamInput@29fcd587; line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1702) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:558) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:456) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2054) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1701) ~[jackson-core-2.8.6.jar:2.8.6]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:776) ~[jackson-core-2.8.6.jar:2.8.6]
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:55) ~[1/:?]
+	at org.elasticsearch.search.builder.SearchSourceBuilder.parseXContent(SearchSourceBuilder.java:946) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.parseSearchRequest(RestSearchAction.java:98) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.lambda$0(RestSearchAction.java:78) ~[1/:?]
+	at org.elasticsearch.rest.RestRequest.withContentOrSourceParamParserOrNull(RestRequest.java:403) ~[1/:?]
+	at org.elasticsearch.rest.action.search.RestSearchAction.prepareRequest(RestSearchAction.java:77) ~[1/:?]
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:66) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:273) ~[1/:?]
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:211) [1/:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.dispatchRequest(Netty4HttpServerTransport.java:505) [transport-netty4-5.4.1.jar:5.4.1]
+	at org.elasticsearch.http.netty4.Netty4HttpRequestHandler.channelRead0(Netty4HttpRequestHandler.java:72) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.pipelining.HttpPipeliningHandler.channelRead(HttpPipeliningHandler.java:63) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at org.elasticsearch.http.netty4.cors.Netty4CorsHandler.channelRead(Netty4CorsHandler.java:76) [transport-netty4-5.4.1.jar:5.4.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-codec-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-09-07T15:10:41,254][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T15:10:41,391][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T15:10:41,392][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T15:10:41,698][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T15:10:41,698][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[12624], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T15:10:41,698][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T15:10:41,698][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T15:10:56,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T15:10:56,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T15:10:56,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T15:10:56,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T15:10:56,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T15:10:56,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T15:10:56,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T15:10:56,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T15:10:56,537][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T15:10:56,537][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T15:10:56,537][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T15:10:58,755][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T15:10:59,306][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T15:10:59,306][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T15:10:59,383][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T15:10:59,749][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T15:10:59,756][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T15:11:02,810][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{5PfBBESQTsuQuFthKtS5jg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T15:11:02,928][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T15:11:02,930][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T15:11:02,963][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T15:11:02,965][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T15:11:03,106][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T15:11:03,107][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T15:11:03,109][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T15:11:03,110][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T15:11:03,110][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T15:11:03,659][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T15:11:10,063][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][2]] ...]).
+[2017-09-07T15:13:21,418][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][142] overhead, spent [310ms] collecting in the last [1s]
+[2017-09-07T15:29:53,953][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T15:29:54,104][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T15:29:54,104][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T15:29:54,397][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T15:29:54,397][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[11712], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T15:29:54,397][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T15:29:54,397][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T15:30:09,338][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T15:30:09,338][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T15:30:09,338][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T15:30:09,338][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T15:30:09,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T15:30:09,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T15:30:09,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T15:30:09,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T15:30:09,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T15:30:09,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T15:30:09,340][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T15:30:11,666][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T15:30:12,331][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T15:30:12,332][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T15:30:12,411][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T15:30:12,822][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T15:30:12,831][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T15:30:15,886][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{LFw1VmosQXeN2cX0Nnvbcg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T15:30:16,007][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T15:30:16,009][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T15:30:16,046][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T15:30:16,048][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T15:30:16,192][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T15:30:16,192][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T15:30:16,194][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T15:30:16,195][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T15:30:16,195][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T15:30:16,751][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T15:30:24,434][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][2]] ...]).
+[2017-09-07T15:32:46,499][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][154] overhead, spent [307ms] collecting in the last [1s]
+[2017-09-07T16:37:56,229][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T16:37:56,386][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T16:37:56,386][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T16:37:56,684][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T16:37:56,685][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[15524], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T16:37:56,685][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T16:37:56,685][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T16:38:11,233][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T16:38:11,233][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T16:38:11,233][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T16:38:11,233][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T16:38:11,233][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T16:38:11,234][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T16:38:11,234][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T16:38:11,234][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T16:38:11,234][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T16:38:11,234][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T16:38:11,234][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T16:38:13,490][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T16:38:14,037][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T16:38:14,037][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T16:38:14,113][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T16:38:14,511][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T16:38:14,517][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T16:38:17,571][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{3pp23IU6RKiPQiKKcDJAAQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T16:38:17,685][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T16:38:17,686][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T16:38:17,717][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T16:38:17,719][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T16:38:17,873][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T16:38:17,874][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T16:38:17,875][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T16:38:17,876][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T16:38:17,876][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T16:38:18,379][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T16:38:25,449][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][3], [logstash-2017.06.06][1]] ...]).
+[2017-09-07T16:42:09,226][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][235] overhead, spent [318ms] collecting in the last [1s]
+[2017-09-07T16:52:51,493][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T16:52:51,655][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T16:52:51,655][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T16:52:51,985][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T16:52:51,985][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[10884], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T16:52:51,985][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T16:52:51,986][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T16:53:06,321][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T16:53:06,321][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T16:53:06,321][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T16:53:06,322][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T16:53:06,322][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T16:53:06,322][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T16:53:06,322][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T16:53:06,322][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T16:53:06,322][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T16:53:06,322][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T16:53:06,323][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T16:53:08,652][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T16:53:09,241][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T16:53:09,241][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T16:53:09,318][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T16:53:09,726][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T16:53:09,734][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T16:53:12,788][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{X6-Yb_pWTvGK-KCOeIUxVA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T16:53:12,907][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T16:53:12,908][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T16:53:12,942][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T16:53:12,944][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T16:53:13,086][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T16:53:13,087][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T16:53:13,088][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T16:53:13,089][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T16:53:13,089][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T16:53:13,653][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T16:53:20,908][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][3], [logstash-2017.06.06][0]] ...]).
+[2017-09-07T16:54:13,298][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][64] overhead, spent [292ms] collecting in the last [1s]
+[2017-09-07T18:53:16,147][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T18:53:16,306][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T18:53:16,306][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T18:53:16,645][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T18:53:16,645][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[15956], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T18:53:16,646][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T18:53:16,646][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T18:53:31,202][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T18:53:31,202][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T18:53:31,202][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T18:53:31,202][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T18:53:31,202][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T18:53:31,202][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T18:53:31,202][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T18:53:31,202][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T18:53:31,202][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T18:53:31,203][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T18:53:31,203][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T18:53:33,518][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T18:53:34,074][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T18:53:34,075][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T18:53:34,155][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T18:53:34,570][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T18:53:34,578][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T18:53:37,631][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{qmOe_-E2SZy3CJe3qq2E4A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T18:53:37,769][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T18:53:37,770][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T18:53:37,803][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T18:53:37,806][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T18:53:37,948][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T18:53:37,948][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T18:53:37,950][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T18:53:37,951][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T18:53:37,951][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T18:53:38,465][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T18:53:46,797][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][0]] ...]).
+[2017-09-07T18:54:51,149][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][77] overhead, spent [309ms] collecting in the last [1s]
+[2017-09-07T19:06:48,288][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T19:06:48,442][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T19:06:48,442][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T19:06:48,740][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T19:06:48,740][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[14080], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T19:06:48,740][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T19:06:48,740][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T19:07:03,552][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T19:07:03,552][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T19:07:03,553][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T19:07:03,553][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T19:07:03,553][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T19:07:03,553][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T19:07:03,553][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T19:07:03,553][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T19:07:03,553][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T19:07:03,553][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T19:07:03,554][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T19:07:05,800][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T19:07:06,369][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T19:07:06,370][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T19:07:06,449][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T19:07:06,842][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T19:07:06,849][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T19:07:09,902][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{j6P8xN8UR1G4Cc7_UbbW5w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T19:07:10,032][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T19:07:10,034][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T19:07:10,065][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T19:07:10,068][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T19:07:10,216][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T19:07:10,217][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T19:07:10,219][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T19:07:10,220][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T19:07:10,220][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T19:07:10,733][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T19:07:18,030][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][4]] ...]).
+[2017-09-07T19:07:27,447][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][21] overhead, spent [307ms] collecting in the last [1s]
+[2017-09-07T19:57:35,924][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T19:57:36,076][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T19:57:36,077][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T19:57:36,380][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T19:57:36,380][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[1852], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T19:57:36,381][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T19:57:36,381][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T19:57:51,618][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T19:57:51,619][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T19:57:51,619][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T19:57:51,619][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T19:57:51,619][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T19:57:51,619][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T19:57:51,619][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T19:57:51,619][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T19:57:51,619][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T19:57:51,619][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T19:57:51,620][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T19:57:53,888][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T19:57:54,449][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T19:57:54,449][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T19:57:54,527][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T19:57:55,007][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T19:57:55,019][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T19:57:58,078][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{Ibd5-aPcRcip6E-d2EtoFA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T19:57:58,194][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T19:57:58,195][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T19:57:58,226][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T19:57:58,228][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T19:57:58,380][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T19:57:58,381][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T19:57:58,382][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T19:57:58,383][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T19:57:58,383][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T19:57:58,916][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T19:58:05,890][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][0]] ...]).
+[2017-09-07T19:58:58,509][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][64] overhead, spent [270ms] collecting in the last [1s]
+[2017-09-07T20:27:03,309][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-09-07T20:27:03,449][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261.6gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-09-07T20:27:03,449][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-09-07T20:27:03,740][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-09-07T20:27:03,741][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[10592], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-09-07T20:27:03,741][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-09-07T20:27:03,741][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-09-07T20:27:18,644][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-09-07T20:27:18,644][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-09-07T20:27:18,644][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-09-07T20:27:18,644][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-09-07T20:27:18,644][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-09-07T20:27:18,645][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-09-07T20:27:18,645][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-09-07T20:27:18,645][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-09-07T20:27:18,645][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-09-07T20:27:18,645][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-09-07T20:27:18,645][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded plugin [analysis-ik]
+[2017-09-07T20:27:20,913][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-09-07T20:27:21,455][INFO ][o.e.n.Node               ] initialized
+[2017-09-07T20:27:21,455][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-09-07T20:27:21,533][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-09-07T20:27:21,953][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-09-07T20:27:21,960][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-09-07T20:27:25,014][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{2fUF0DkKSkKotrHghRDSvw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-09-07T20:27:25,131][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\config\analysis-ik\IKAnalyzer.cfg.xml
+[2017-09-07T20:27:25,133][INFO ][o.w.a.d.Monitor          ] try load config from E:\elasticsearch-5.4.1\core\src\main\plugins\ik\config\IKAnalyzer.cfg.xml
+[2017-09-07T20:27:25,171][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-09-07T20:27:25,173][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-09-07T20:27:25,307][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\mydict.dic
+[2017-09-07T20:27:25,308][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\single_word_low_freq.dic
+[2017-09-07T20:27:25,309][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong.dic
+[2017-09-07T20:27:25,310][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\ext_stopword.dic
+[2017-09-07T20:27:25,311][INFO ][o.w.a.d.Monitor          ] [Dict Loading] custom\huagong_stop.dic
+[2017-09-07T20:27:25,823][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-09-07T20:27:32,928][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][1], [logstash-2017.06.06][0]] ...]).

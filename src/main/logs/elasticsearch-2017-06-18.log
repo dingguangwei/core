@@ -1,0 +1,1596 @@
+[2017-06-18T10:13:45,649][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T10:13:46,235][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T10:13:46,236][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T10:13:47,072][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T10:13:47,072][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[18176], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T10:13:47,073][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T10:13:47,073][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T10:14:04,960][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T10:14:04,961][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T10:14:04,961][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T10:14:04,961][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T10:14:04,961][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T10:14:04,961][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T10:14:04,961][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T10:14:04,962][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T10:14:04,962][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T10:14:04,962][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T10:14:04,962][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T10:14:17,386][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T10:14:21,442][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T10:14:21,442][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T10:14:21,630][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T10:14:22,261][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T10:14:22,306][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T10:14:25,702][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{H42vHpjsSga0YeGwrUdgyw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T10:14:25,948][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T10:14:25,977][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T10:14:27,376][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [7] indices into cluster_state
+[2017-06-18T10:14:33,941][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][3]] ...]).
+[2017-06-18T10:32:06,328][INFO ][o.e.c.m.MetaDataCreateIndexService] [0kHAj67] [twitter] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-06-18T10:34:53,483][INFO ][o.e.c.m.MetaDataCreateIndexService] [0kHAj67] [twr] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-06-18T10:35:19,575][INFO ][o.e.c.m.MetaDataDeleteIndexService] [0kHAj67] [twr/YTLcaewpQAO3Yhsm8DgjaQ] deleting index
+[2017-06-18T10:35:26,718][INFO ][o.e.c.m.MetaDataDeleteIndexService] [0kHAj67] [twitter/FVfiuxPVSOCpOtINlNKMLg] deleting index
+[2017-06-18T10:36:19,580][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T10:36:19,775][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T10:36:19,775][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T10:36:19,976][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T10:36:19,977][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[14640], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T10:36:19,977][INFO ][o.e.n.Node               ] JVM arguments [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55553, -Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T10:36:19,977][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T10:36:35,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T10:36:35,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T10:36:35,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T10:36:35,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T10:36:35,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T10:36:35,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T10:36:35,339][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T10:36:35,340][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T10:36:35,340][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T10:36:35,340][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T10:36:35,340][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T10:37:18,793][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T10:37:27,901][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T10:37:29,199][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T10:37:29,756][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T10:37:31,036][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T10:37:31,068][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T10:37:34,179][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{aNo6Hm_qQuSymfZwgpp6xg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T10:37:34,512][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T10:37:34,522][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T10:37:35,010][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [7] indices into cluster_state
+[2017-06-18T10:37:42,948][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][3]] ...]).
+[2017-06-18T10:38:11,572][INFO ][o.e.c.m.MetaDataCreateIndexService] [0kHAj67] [twr] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-06-18T10:39:10,104][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T10:39:10,266][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T10:39:10,267][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T10:39:10,510][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T10:39:10,510][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[10132], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T10:39:10,510][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T10:39:10,510][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T10:39:25,535][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T10:39:25,535][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T10:39:25,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T10:39:25,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T10:39:25,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T10:39:25,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T10:39:25,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T10:39:25,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T10:39:25,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T10:39:25,536][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T10:39:25,537][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T10:39:28,225][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T10:39:28,813][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T10:39:28,813][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T10:39:28,905][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T10:39:29,416][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T10:39:29,425][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T10:39:32,472][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{7ohI4IP8Q6iGPot9saHqyw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T10:39:32,705][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T10:39:32,707][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T10:39:33,101][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-06-18T10:39:39,872][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][4], [logstash-2017.06.06][0]] ...]).
+[2017-06-18T17:46:03,446][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T17:46:03,518][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [1/:?]
+[2017-06-18T17:46:03,537][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[1/:?]
+	... 6 more
+[2017-06-18T17:47:12,321][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T17:47:12,388][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [1/:?]
+[2017-06-18T17:47:12,406][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[1/:?]
+	... 6 more
+[2017-06-18T17:47:27,042][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T17:47:27,099][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [1/:?]
+[2017-06-18T17:47:27,118][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[1/:?]
+	... 6 more
+[2017-06-18T17:47:54,433][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T17:47:54,495][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [1/:?]
+[2017-06-18T17:47:54,513][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[1/:?]
+	... 6 more
+[2017-06-18T17:51:03,290][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T17:51:03,349][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [1/:?]
+[2017-06-18T17:51:03,365][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:136) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:123) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:132) ~[1/:?]
+	... 6 more
+[2017-06-18T17:52:44,019][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T17:52:44,222][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T17:52:44,222][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T17:52:44,454][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T17:52:44,454][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[14364], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T17:52:44,454][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T17:52:44,454][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T17:53:00,048][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T17:53:00,048][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T17:53:00,048][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T17:53:00,048][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T17:53:00,048][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T17:53:00,048][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T17:53:00,048][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T17:53:00,048][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T17:53:00,049][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T17:53:00,049][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T17:53:00,049][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T17:53:07,484][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T17:53:09,609][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T17:53:09,610][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T17:53:09,746][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T17:53:10,366][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T17:53:10,383][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T17:53:13,671][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{eRcjO2CJRoKxOFwo-pGMRA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T17:53:13,901][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T17:53:13,904][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T17:53:14,916][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-06-18T17:53:23,651][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][2], [logstash-2017.06.06][0]] ...]).
+[2017-06-18T18:09:22,454][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T18:09:22,672][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T18:09:22,673][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T18:09:22,980][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T18:09:22,980][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[18236], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T18:09:22,980][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T18:09:22,980][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T18:09:37,706][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T18:09:37,706][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T18:09:37,706][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T18:09:37,706][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T18:09:37,706][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T18:09:37,706][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T18:09:37,706][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T18:09:37,707][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T18:09:37,707][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T18:09:37,707][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T18:09:37,707][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T18:09:40,470][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T18:09:41,082][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T18:09:41,082][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T18:09:41,177][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T18:09:41,707][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T18:09:41,715][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T18:09:44,769][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{v9TaTK2ITb-mcbvVUvuK4g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T18:09:44,992][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T18:09:44,994][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T18:09:45,365][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-06-18T18:09:51,495][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][1]] ...]).
+[2017-06-18T19:03:38,872][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T19:03:39,066][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T19:03:39,066][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T19:03:39,389][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T19:03:39,389][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[12152], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T19:03:39,390][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T19:03:39,390][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T19:03:54,616][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T19:03:54,616][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T19:03:54,617][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T19:03:54,617][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T19:03:54,617][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T19:03:54,617][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T19:03:54,617][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T19:03:54,617][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T19:03:54,617][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T19:03:54,617][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T19:03:54,618][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T19:03:57,351][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T19:03:57,990][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T19:03:57,990][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T19:03:58,090][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T19:03:58,620][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T19:03:58,628][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T19:04:01,684][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{rpfWbJMDRouoSj_1trl8IA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T19:04:01,912][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T19:04:01,914][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T19:04:02,356][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-06-18T19:04:08,825][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][1], [logstash-2017.06.06][0]] ...]).
+[2017-06-18T20:09:54,654][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:09:54,854][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T20:09:54,855][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T20:09:55,113][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T20:09:55,114][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[10920], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T20:09:55,114][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T20:09:55,114][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T20:10:01,867][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-mustache
+Description: Mustache scripting integration for Elasticsearch
+Version: 5.4.1
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:372) ~[1/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:139) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:310) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:147) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:138) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) [1/:?]
+Caused by: java.lang.IllegalStateException: jar hell!
+class: org.elasticsearch.script.mustache.CustomMustacheFactory$CustomMustacheVisitor
+jar1: E:\elasticsearch-5.4.1\core\src\main\modules\lang-mustache\lang-mustache-5.4.1.jar
+jar2: D:\ELK\elasticsearch-5.4.1\modules\lang-mustache\lang-mustache-5.4.1.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:280) ~[1/:?]
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192) ~[1/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:370) ~[1/:?]
+	... 13 more
+[2017-06-18T20:10:01,880][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-mustache
+Description: Mustache scripting integration for Elasticsearch
+Version: 5.4.1
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin due to jar hell
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:151) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:138) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:115) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to load plugin - Plugin information:
+Name: lang-mustache
+Description: Mustache scripting integration for Elasticsearch
+Version: 5.4.1
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin due to jar hell
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:372) ~[1/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:139) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:310) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:147) ~[1/:?]
+	... 6 more
+Caused by: java.lang.IllegalStateException: jar hell!
+class: org.elasticsearch.script.mustache.CustomMustacheFactory$CustomMustacheVisitor
+jar1: E:\elasticsearch-5.4.1\core\src\main\modules\lang-mustache\lang-mustache-5.4.1.jar
+jar2: D:\ELK\elasticsearch-5.4.1\modules\lang-mustache\lang-mustache-5.4.1.jar
+	at org.elasticsearch.bootstrap.JarHell.checkClass(JarHell.java:280) ~[1/:?]
+	at org.elasticsearch.bootstrap.JarHell.checkJarHell(JarHell.java:192) ~[1/:?]
+	at org.elasticsearch.plugins.PluginsService.loadBundles(PluginsService.java:370) ~[1/:?]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:139) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:310) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:147) ~[1/:?]
+	... 6 more
+[2017-06-18T20:14:36,207][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:14:36,368][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T20:14:36,368][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T20:14:36,605][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T20:14:36,605][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[4752], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T20:14:36,606][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T20:14:36,606][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T20:14:51,486][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T20:14:51,486][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T20:14:51,486][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T20:14:51,487][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T20:14:51,487][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T20:14:51,487][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T20:14:51,487][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T20:14:51,487][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T20:14:51,487][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T20:14:51,487][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T20:14:51,488][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T20:14:55,347][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T20:14:56,236][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T20:14:56,237][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T20:14:56,333][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T20:14:56,955][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T20:14:56,964][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T20:15:00,066][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{M1wvMzPIT4q-h1Q3MpWG5g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T20:15:00,313][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T20:15:00,315][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T20:15:00,364][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] fatal error in thread [main], exiting
+java.lang.ExceptionInInitializerError: null
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) ~[1/:?]
+Caused by: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "io.netty.noUnsafe" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472) ~[?:1.8.0_121]
+	at java.security.AccessController.checkPermission(AccessController.java:884) ~[?:1.8.0_121]
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549) ~[?:1.8.0_121]
+	at java.lang.System.setProperty(System.java:792) ~[?:1.8.0_121]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.setSystemPropertyIfUnset(PreBuiltTransportClient.java:82) ~[transport-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.initializeNetty(PreBuiltTransportClient.java:73) ~[transport-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<clinit>(PreBuiltTransportClient.java:56) ~[transport-5.4.1.jar:5.4.1]
+	... 1 more
+[2017-06-18T20:17:54,529][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:17:54,683][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T20:17:54,684][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T20:17:54,914][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T20:17:54,915][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[14384], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T20:17:54,915][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T20:17:54,915][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T20:18:09,531][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T20:18:09,531][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T20:18:09,531][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T20:18:09,531][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T20:18:09,531][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T20:18:09,531][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T20:18:09,531][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T20:18:09,531][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T20:18:09,531][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T20:18:09,532][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T20:18:09,532][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T20:18:12,170][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T20:18:12,787][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T20:18:12,788][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T20:18:12,889][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T20:18:13,417][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T20:18:13,426][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T20:18:16,493][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{BbqplOTPSGmqmS46UoZwbw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T20:18:16,748][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T20:18:16,750][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T20:18:16,757][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] fatal error in thread [main], exiting
+java.lang.ExceptionInInitializerError: null
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) ~[1/:?]
+Caused by: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "io.netty.noUnsafe" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472) ~[?:1.8.0_121]
+	at java.security.AccessController.checkPermission(AccessController.java:884) ~[?:1.8.0_121]
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549) ~[?:1.8.0_121]
+	at java.lang.System.setProperty(System.java:792) ~[?:1.8.0_121]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.setSystemPropertyIfUnset(PreBuiltTransportClient.java:82) ~[transport-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.initializeNetty(PreBuiltTransportClient.java:73) ~[transport-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<clinit>(PreBuiltTransportClient.java:56) ~[transport-5.4.1.jar:5.4.1]
+	... 1 more
+[2017-06-18T20:18:33,505][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:18:33,670][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T20:18:33,670][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T20:18:33,901][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T20:18:33,902][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[7312], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T20:18:33,902][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T20:18:33,902][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T20:18:48,694][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T20:18:48,694][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T20:18:48,695][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T20:18:48,695][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T20:18:48,695][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T20:18:48,695][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T20:18:48,695][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T20:18:48,695][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T20:18:48,695][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T20:18:48,695][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T20:18:48,696][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T20:18:51,318][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T20:18:51,916][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T20:18:51,916][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T20:18:52,014][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T20:18:52,527][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T20:18:52,536][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T20:18:55,597][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{tw1PjcCKQDWo6G5VPrxqdg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T20:18:55,833][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T20:18:55,836][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T20:18:56,136][WARN ][o.e.g.GatewayAllocator$InternalPrimaryShardAllocator] [0kHAj67] [logstash-2017.06.07][4]: failed to list shard for shard_started on node [0kHAj67FRs6m_ktiMYc0zg]
+org.elasticsearch.action.FailedNodeException: Failed node [0kHAj67FRs6m_ktiMYc0zg]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:246) [1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$1(TransportNodesAction.java:240) [1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$1.handleException(TransportNodesAction.java:218) [1/:?]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1050) [1/:?]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1154) [1/:?]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1132) [1/:?]
+	at org.elasticsearch.transport.TransportService$7.onFailure(TransportService.java:638) [1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:623) [1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39) [1/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: org.elasticsearch.transport.RemoteTransportException: [0kHAj67][127.0.0.1:9300][internal:gateway/local/started_shards[n]]
+Caused by: org.elasticsearch.ElasticsearchException: failed to load started shards
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:171) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:1) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:269) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:1) ~[1/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[1/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[1/:?]
+	... 3 more
+Caused by: org.elasticsearch.ElasticsearchException: java.io.IOException: failed to read [id:59, legacy:false, file:E:\elasticsearch-5.4.1\core\src\main\data\nodes\0\indices\Dh0dDoPLTcynKk1rVSPOhQ\_state\state-59.st]
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:150) ~[1/:?]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:334) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:1) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:269) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:1) ~[1/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[1/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[1/:?]
+	... 3 more
+Caused by: java.io.IOException: failed to read [id:59, legacy:false, file:E:\elasticsearch-5.4.1\core\src\main\data\nodes\0\indices\Dh0dDoPLTcynKk1rVSPOhQ\_state\state-59.st]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:327) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:1) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:269) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:1) ~[1/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[1/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[1/:?]
+	... 3 more
+Caused by: java.nio.file.NoSuchFileException: E:\elasticsearch-5.4.1\core\src\main\data\nodes\0\indices\Dh0dDoPLTcynKk1rVSPOhQ\_state\state-59.st
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_121]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_121]
+	at org.apache.lucene.store.SimpleFSDirectory.openInput(SimpleFSDirectory.java:77) ~[lucene-core-6.5.1.jar:6.5.1 cd1f23c63abe03ae650c75ec8ccb37762806cc75 - jimczi - 2017-04-21 12:17:15]
+	at org.elasticsearch.gateway.MetaDataStateFormat.read(MetaDataStateFormat.java:187) ~[1/:?]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:322) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[1/:?]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:1) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:269) ~[1/:?]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:1) ~[1/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[1/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:627) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) ~[1/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[1/:?]
+	... 3 more
+[2017-06-18T20:18:56,412][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-06-18T20:19:03,444][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][2], [logstash-2017.06.06][0]] ...]).
+[2017-06-18T20:19:55,384][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:19:55,451][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:140) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:131) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) [1/:?]
+[2017-06-18T20:19:55,469][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:144) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:131) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:140) ~[1/:?]
+	... 6 more
+[2017-06-18T20:20:20,940][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:20:21,093][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T20:20:21,094][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T20:20:21,319][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T20:20:21,319][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[17568], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T20:20:21,319][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T20:20:21,319][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T20:20:35,983][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T20:20:35,983][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T20:20:35,983][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T20:20:35,983][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T20:20:35,983][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T20:20:35,984][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T20:20:35,984][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T20:20:35,984][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T20:20:35,984][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T20:20:35,984][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T20:20:35,984][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T20:20:38,668][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T20:20:39,281][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T20:20:39,281][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T20:20:39,375][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T20:20:39,905][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T20:20:39,913][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T20:20:42,977][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{KrNlIPKIRB6NLiGtu6kKdQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T20:20:43,229][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T20:20:43,233][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T20:20:43,623][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-06-18T20:20:50,776][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][0]] ...]).
+[2017-06-18T20:29:13,246][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:29:13,420][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T20:29:13,420][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T20:29:13,660][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T20:29:13,660][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[8196], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T20:29:13,660][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T20:29:13,660][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T20:29:29,376][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T20:29:29,376][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T20:29:29,376][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T20:29:29,377][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T20:29:29,377][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T20:29:29,377][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T20:29:29,377][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T20:29:29,377][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T20:29:29,377][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T20:29:29,377][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T20:29:29,378][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T20:29:32,317][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T20:29:33,014][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T20:29:33,014][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T20:29:33,116][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T20:29:33,708][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T20:29:33,716][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T20:29:36,767][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{Com_EIQNRf2umcAZC0TGNQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T20:29:37,035][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T20:29:37,039][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T20:29:37,047][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] fatal error in thread [main], exiting
+java.lang.ExceptionInInitializerError: null
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:100) ~[1/:?]
+Caused by: java.security.AccessControlException: access denied ("java.util.PropertyPermission" "io.netty.noUnsafe" "write")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472) ~[?:1.8.0_121]
+	at java.security.AccessController.checkPermission(AccessController.java:884) ~[?:1.8.0_121]
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549) ~[?:1.8.0_121]
+	at java.lang.System.setProperty(System.java:792) ~[?:1.8.0_121]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.setSystemPropertyIfUnset(PreBuiltTransportClient.java:82) ~[transport-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.initializeNetty(PreBuiltTransportClient.java:73) ~[transport-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<clinit>(PreBuiltTransportClient.java:56) ~[transport-5.4.1.jar:5.4.1]
+	... 1 more
+[2017-06-18T20:35:37,306][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:35:37,466][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T20:35:37,466][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T20:35:37,695][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T20:35:37,695][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[11700], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T20:35:37,695][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T20:35:37,695][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T20:35:52,561][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T20:35:52,561][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T20:35:52,561][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T20:35:52,561][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T20:35:52,561][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T20:35:52,561][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T20:35:52,561][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T20:35:52,561][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T20:35:52,561][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T20:35:52,562][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T20:35:52,562][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T20:35:55,208][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T20:35:55,845][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T20:35:55,845][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T20:35:55,938][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T20:35:56,462][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T20:35:56,470][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T20:35:59,528][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{Ma8igGozTIOnIe0JO7GsJA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T20:35:59,770][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T20:35:59,773][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T20:36:00,274][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [8] indices into cluster_state
+[2017-06-18T20:36:06,911][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][1], [logstash-2017.06.06][2]] ...]).
+[2017-06-18T20:36:54,796][INFO ][o.e.c.m.MetaDataCreateIndexService] [0kHAj67] [pages] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-06-18T20:36:56,857][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [0kHAj67] failed to put mappings on indices [[[pages/P3BA8HJ6SXmn1dZIFzHyQA]]], type [sina]
+org.elasticsearch.index.mapper.MapperParsingException: analyzer [ik] not found for field [article_title]
+	at org.elasticsearch.index.mapper.TypeParsers.parseAnalyzersAndTermVectors(TypeParsers.java:120) ~[1/:?]
+	at org.elasticsearch.index.mapper.TypeParsers.parseTextField(TypeParsers.java:209) ~[1/:?]
+	at org.elasticsearch.index.mapper.TextFieldMapper$TypeParser.parse(TextFieldMapper.java:185) ~[1/:?]
+	at org.elasticsearch.index.mapper.StringFieldMapper$TypeParser.parse(StringFieldMapper.java:264) ~[1/:?]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:277) ~[1/:?]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:199) ~[1/:?]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[1/:?]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[1/:?]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[1/:?]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:633) ~[1/:?]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[1/:?]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[1/:?]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:633) ~[1/:?]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:611) ~[1/:?]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:570) [1/:?]
+	at org.elasticsearch.cluster.service.ClusterService$ClusterServiceTaskBatcher.run(ClusterService.java:262) [1/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [1/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [1/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:569) [1/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [1/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [1/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x3fdc1eb1, L:/127.0.0.1:9300 - R:/127.0.0.1:58730]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0xf5ab8c10, L:/127.0.0.1:9300 - R:/127.0.0.1:58740]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x1bb4519d, L:/127.0.0.1:9300 - R:/127.0.0.1:58736]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,694][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x472edd35, L:/127.0.0.1:9300 - R:/127.0.0.1:58739]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x62fbe9d4, L:/127.0.0.1:9300 - R:/127.0.0.1:58741]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,694][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x28d433fd, L:/127.0.0.1:9300 - R:/127.0.0.1:58738]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x4c6bc518, L:/127.0.0.1:9300 - R:/127.0.0.1:58737]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x1b3803a9, L:/127.0.0.1:9300 - R:/127.0.0.1:58732]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,694][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x113d7f30, L:/127.0.0.1:9300 - R:/127.0.0.1:58735]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x56bffe83, L:/127.0.0.1:9300 - R:/127.0.0.1:58731]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x9c81425d, L:/127.0.0.1:9300 - R:/127.0.0.1:58729]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x5f45a576, L:/127.0.0.1:9300 - R:/127.0.0.1:58734]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:36:57,493][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x4ec54e80, L:/127.0.0.1:9300 - R:/127.0.0.1:58733]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:38:54,976][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:38:55,145][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T20:38:55,145][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T20:38:55,409][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T20:38:55,410][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[13600], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T20:38:55,410][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T20:38:55,410][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T20:39:10,245][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T20:39:10,246][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T20:39:10,246][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T20:39:10,246][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T20:39:10,246][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T20:39:10,246][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T20:39:10,246][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T20:39:10,246][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T20:39:10,246][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T20:39:10,247][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T20:39:10,247][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T20:39:12,937][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T20:39:13,544][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T20:39:13,544][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T20:39:13,636][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T20:39:14,152][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T20:39:14,162][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T20:39:17,212][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{sX_VOjnyQp6DBHmTBj8zmg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T20:39:17,450][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T20:39:17,453][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T20:39:17,922][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [9] indices into cluster_state
+[2017-06-18T20:39:24,719][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][3]] ...]).
+[2017-06-18T20:41:03,326][INFO ][o.e.c.m.MetaDataCreateIndexService] [0kHAj67] [pa] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-06-18T20:41:05,860][INFO ][o.e.c.m.MetaDataMappingService] [0kHAj67] [pa/FA3n2FnhSSe33uFbQlaklw] create_mapping [sina]
+[2017-06-18T20:41:06,471][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x9da023f0, L:/127.0.0.1:9300 - R:/127.0.0.1:59352]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,470][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x52627a08, L:/127.0.0.1:9300 - R:/127.0.0.1:59351]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,470][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x59730b5a, L:/127.0.0.1:9300 - R:/127.0.0.1:59354]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,471][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x57a1b25d, L:/127.0.0.1:9300 - R:/127.0.0.1:59344]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,478][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x83db7ebd, L:/127.0.0.1:9300 - R:/127.0.0.1:59349]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,470][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0xd213795b, L:/127.0.0.1:9300 - R:/127.0.0.1:59345]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,473][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0xf68e9f1f, L:/127.0.0.1:9300 - R:/127.0.0.1:59348]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,484][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x6eeb97e5, L:/127.0.0.1:9300 - R:/127.0.0.1:59355]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,471][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x9e841bb8, L:/127.0.0.1:9300 - R:/127.0.0.1:59346]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:813) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,484][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x41f66ba7, L:/127.0.0.1:9300 - R:/127.0.0.1:59350]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,470][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0xd00f93aa, L:/127.0.0.1:9300 - R:/127.0.0.1:59347]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,471][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x97f74f37, L:/127.0.0.1:9300 - R:/127.0.0.1:59353]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:41:06,470][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x53da1a9b, L:/127.0.0.1:9300 - R:/127.0.0.1:59343]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:43:27,198][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:43:27,363][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-18T20:43:27,363][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-18T20:43:27,751][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-18T20:43:27,752][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[11736], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-18T20:43:27,752][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-18T20:43:27,752][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-18T20:43:42,404][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-18T20:43:42,404][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-18T20:43:42,404][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-18T20:43:42,404][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-18T20:43:42,404][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-18T20:43:42,404][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-18T20:43:42,404][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-18T20:43:42,404][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-18T20:43:42,404][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-18T20:43:42,405][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-18T20:43:42,405][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-18T20:43:45,064][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-18T20:43:45,688][INFO ][o.e.n.Node               ] initialized
+[2017-06-18T20:43:45,688][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-18T20:43:45,783][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-18T20:43:46,313][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-06-18T20:43:46,321][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-18T20:43:49,379][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] new_master {0kHAj67}{0kHAj67FRs6m_ktiMYc0zg}{6cIhb12xRHucP1JgdlejQQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-18T20:43:49,645][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-06-18T20:43:49,648][INFO ][o.e.n.Node               ] [0kHAj67] started
+[2017-06-18T20:43:50,152][INFO ][o.e.g.GatewayService     ] [0kHAj67] recovered [10] indices into cluster_state
+[2017-06-18T20:44:00,252][INFO ][o.e.c.r.a.AllocationService] [0kHAj67] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2017.06.06][4], [logstash-2017.06.06][3]] ...]).
+[2017-06-18T20:44:44,795][INFO ][o.e.c.m.MetaDataDeleteIndexService] [0kHAj67] [pa/FA3n2FnhSSe33uFbQlaklw] deleting index
+[2017-06-18T20:44:53,559][INFO ][o.e.c.m.MetaDataDeleteIndexService] [0kHAj67] [pages/P3BA8HJ6SXmn1dZIFzHyQA] deleting index
+[2017-06-18T20:45:00,051][INFO ][o.e.c.m.MetaDataDeleteIndexService] [0kHAj67] [twr/hzaEQk1cROWHHfWRgK_zHQ] deleting index
+[2017-06-18T20:45:22,566][INFO ][o.e.c.m.MetaDataCreateIndexService] [0kHAj67] [pa] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-06-18T20:45:24,730][INFO ][o.e.c.m.MetaDataMappingService] [0kHAj67] [pa/MBZRsQoFQsWLOaJxNFUQjA] create_mapping [sina]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x3d58957e, L:/127.0.0.1:9300 - R:/127.0.0.1:60135]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x56889d71, L:/127.0.0.1:9300 - R:/127.0.0.1:60142]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x4f1a553e, L:/127.0.0.1:9300 - R:/127.0.0.1:60134]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x75a0b889, L:/127.0.0.1:9300 - R:/127.0.0.1:60132]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0xa68981b0, L:/127.0.0.1:9300 - R:/127.0.0.1:60136]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x9afc0486, L:/127.0.0.1:9300 - R:/127.0.0.1:60133]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x451c1f3d, L:/127.0.0.1:9300 - R:/127.0.0.1:60140]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x76ed587c, L:/127.0.0.1:9300 - R:/127.0.0.1:60138]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0xf572c7a8, L:/127.0.0.1:9300 - R:/127.0.0.1:60137]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x46287f4b, L:/127.0.0.1:9300 - R:/127.0.0.1:60143]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0xd9c116ae, L:/127.0.0.1:9300 - R:/127.0.0.1:60139]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0xefb8323a, L:/127.0.0.1:9300 - R:/127.0.0.1:60141]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:45:25,366][WARN ][o.e.t.n.Netty4Transport  ] [0kHAj67] exception caught on transport layer [[id: 0x27017b75, L:/127.0.0.1:9300 - R:/127.0.0.1:60144]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:?]
+	at io.netty.buffer.PooledHeapByteBuf.setBytes(PooledHeapByteBuf.java:261) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-buffer-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:644) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.11.Final.jar:4.1.11.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.11.Final.jar:4.1.11.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-06-18T20:47:02,869][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:47:02,940][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:140) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:131) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) [1/:?]
+[2017-06-18T20:47:02,958][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:144) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:131) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:140) ~[1/:?]
+	... 6 more
+[2017-06-18T20:47:14,934][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:47:14,992][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:140) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:131) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) [1/:?]
+[2017-06-18T20:47:15,008][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:144) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:131) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:140) ~[1/:?]
+	... 6 more
+[2017-06-18T20:47:59,239][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-18T20:47:59,311][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:140) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:131) [1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) [1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) [1/:?]
+[2017-06-18T20:47:59,339][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:144) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:131) ~[1/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[1/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[1/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:108) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:96) ~[1/:?]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.4.1\core\src\main\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:262) ~[1/:?]
+	at org.elasticsearch.node.Node.<init>(Node.java:242) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:232) ~[1/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:350) ~[1/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:140) ~[1/:?]
+	... 6 more

@@ -1,0 +1,4 @@
+grant {
+    permission javax.management.MBeanTrustPermission "register";
+    permission javax.management.MBeanServerPermission "createMBeanServer";
+};

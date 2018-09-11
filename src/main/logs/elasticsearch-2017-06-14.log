@@ -1,0 +1,30 @@
+[2017-06-14T19:22:41,384][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-14T19:22:42,012][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] using [1] data paths, mounts [[文档 (E:)]], net usable_space [261gb], net total_space [277gb], spins? [unknown], types [NTFS]
+[2017-06-14T19:22:42,013][INFO ][o.e.e.NodeEnvironment    ] [0kHAj67] heap size [1.7gb], compressed ordinary object pointers [true]
+[2017-06-14T19:22:42,213][INFO ][o.e.n.Node               ] node name [0kHAj67] derived from node ID [0kHAj67FRs6m_ktiMYc0zg]; set [node.name] to override
+[2017-06-14T19:22:42,213][INFO ][o.e.n.Node               ] version[5.4.1-SNAPSHOT], pid[18360], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-06-14T19:22:42,214][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.home=E:\elasticsearch-5.4.1\core\src\main, -Djava.security.policy=E:\elasticsearch-5.4.1\core\src\main\resources\config\elasticsearch.policy, -Dfile.encoding=UTF-8]
+[2017-06-14T19:22:42,214][WARN ][o.e.n.Node               ] version [5.4.1-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2017-06-14T19:22:58,868][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [aggs-matrix-stats]
+[2017-06-14T19:22:58,868][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [ingest-common]
+[2017-06-14T19:22:58,868][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-expression]
+[2017-06-14T19:22:58,869][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-groovy]
+[2017-06-14T19:22:58,869][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-mustache]
+[2017-06-14T19:22:58,869][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [lang-painless]
+[2017-06-14T19:22:58,869][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [percolator]
+[2017-06-14T19:22:58,869][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [reindex]
+[2017-06-14T19:22:58,869][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty3]
+[2017-06-14T19:22:58,869][INFO ][o.e.p.PluginsService     ] [0kHAj67] loaded module [transport-netty4]
+[2017-06-14T19:22:58,870][INFO ][o.e.p.PluginsService     ] [0kHAj67] no plugins loaded
+[2017-06-14T19:23:09,827][INFO ][o.e.d.DiscoveryModule    ] [0kHAj67] using discovery type [zen]
+[2017-06-14T19:23:12,710][INFO ][o.e.n.Node               ] initialized
+[2017-06-14T19:23:12,710][INFO ][o.e.n.Node               ] [0kHAj67] starting ...
+[2017-06-14T19:23:12,891][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2017-06-14T19:23:13,427][INFO ][o.e.t.TransportService   ] [0kHAj67] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2017-06-14T19:23:13,466][WARN ][o.e.b.BootstrapChecks    ] [0kHAj67] initial heap size [134217728] not equal to maximum heap size [2116026368]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2017-06-14T19:23:17,362][INFO ][o.e.c.s.ClusterService   ] [0kHAj67] detected_master {csQmFpv}{csQmFpvzQuOol_DaeHsmkg}{PVYJ7BpITfevcUlmfdRDoA}{127.0.0.1}{127.0.0.1:9300}, added {{csQmFpv}{csQmFpvzQuOol_DaeHsmkg}{PVYJ7BpITfevcUlmfdRDoA}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-receive(from master [master {csQmFpv}{csQmFpvzQuOol_DaeHsmkg}{PVYJ7BpITfevcUlmfdRDoA}{127.0.0.1}{127.0.0.1:9300} committed version [23]])
+[2017-06-14T19:23:17,756][INFO ][o.e.m.j.JvmGcMonitorService] [0kHAj67] [gc][5] overhead, spent [307ms] collecting in the last [1s]
+[2017-06-14T19:23:18,982][INFO ][o.e.g.DanglingIndicesState] [0kHAj67] [[blog/Iuv4qBQFRgia-vItQKR23A]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2017-06-14T19:23:18,982][INFO ][o.e.g.DanglingIndicesState] [0kHAj67] [[index/UYuv0vF1R8CnQaUwBjbZfg]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2017-06-14T19:23:19,402][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kHAj67] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2017-06-14T19:23:19,494][INFO ][o.e.n.Node               ] [0kHAj67] started

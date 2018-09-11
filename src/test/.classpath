@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="build-eclipse/1" path="java"/>
+	<classpathentry kind="src" output="build-eclipse/2" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/elasticsearch-5.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/HdrHistogram-2.1.9.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/hppc-0.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/jackson-core-2.8.6.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/jackson-dataformat-cbor-2.8.6.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/jackson-dataformat-smile-2.8.6.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/jackson-dataformat-yaml-2.8.6.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/java-version-checker-5.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/jna-4.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/joda-time-2.9.5.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/jopt-simple-5.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/jts-1.13.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/log4j-1.2-api-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/log4j-api-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/log4j-core-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-analyzers-common-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-backward-codecs-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-core-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-grouping-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-highlighter-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-join-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-memory-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-misc-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-queries-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-queryparser-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-sandbox-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-spatial3d-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-spatial-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-spatial-extras-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/lucene-suggest-6.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/securesm-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/spatial4j-0.6.jar"/>
+	<classpathentry kind="lib" path="D:/ELK/elasticsearch-5.4.1/lib/t-digest-3.0.jar"/>
+	<classpathentry kind="output" path="build-eclipse"/>
+</classpath>
